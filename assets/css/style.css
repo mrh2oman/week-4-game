@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+
+  background: url("../images/whitediamond/whitediamond.png")
+}
+
+.image {
+		width: 200px;
+		height: auto;
+}
+
+#winlose{
+
+  display:inline-block;
+  /*float:left;
+  clear:both;
+  padding-left:25px;*/
+}
+
+#yscore{
+  display:inline-block;
+
+}
+
+#logo1{
+  width:100%;
+  height:auto;
+}
+
+/*#logo{
+    width:200px;
+    height:auto;
+}
+
+#h1counter{
+      padding-left:200px;
+}
+
+#scoreboard{
+  padding-left: 100px;
+} 
+*/
+
+
+
+
+
+@media screen and (max-width: 500px) and (min-width: 400px){
+.image{
+  width:150px;
+  height: auto;
+}
+
+#logo1{
+  width:275px;
+  height:auto;
+}
+
+}
+
+@media screen and (max-width:700px) and (min-width:600px){
+  .image{
+    width:125px;
+    height:auto;
+  }
+
+}
+
+@media screen and (max-width:800px) and (min-width:701px){
+  .image{
+    width:150px;
+    height:auto;
+  }
+
+}
+
+@media screen and (max-width:900px) and (min-width:801px){
+  .image{
+    width:175px;
+    height:auto;
+  }
+
+}
+
+@media screen and (max-width:1440px) and (min-width:901px){
+  .image{
+    width:190px;
+    height:auto;
+  }
+
+  #winlose{
+    display:inline-block;
+
+  }
+
+}
